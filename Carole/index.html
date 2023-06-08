@@ -7,28 +7,49 @@
 <body>
     
     <style>
-        
-        .cv {
+        body 
+        {
+            margin: 0;
+            padding: 0;
             background-color:rgb(218, 202, 202);
         }
 
-        span{
+        .nom-carole
+        {
+            color:rgb(204, 53, 53);
+        }
+
+        .img
+        {
+            border-radius: 50%;
+        }
+
+        .nom-pinky
+        {
+            color: rgb(204, 53, 53);
+        }
+
+        span
+        {
             text-align: center;
             font-size: 40px;
             
         }
 
-        table{
+        table
+        {
             display: flex;
             justify-content: center;
         }
 
-        tr td{
+        tr td
+        {
             padding: 100px;
             border: solid 4px rgb(204, 53, 53);
         }
 
-        .titre{
+        .titre
+        {
             text-align: center;
             border-bottom: dashed 2px rgb(204, 53, 53);
             color: rgb(63, 61, 61);
@@ -36,37 +57,54 @@
             padding: 20px;
         }
 
-        img{
-            width: 250px;
-            height: 250px;
+        img
+        {
+            object-fit: cover;
+            width: 220px;
+            height: 220px;
         }
 
-        tr span{
+        tr span
+        {
             border: solid 1px rgb(204, 53, 53);
             padding-left: end;
         }
 
-        .autres-cv{
+        .autres-cv
+        {
             font-size: 25px; 
             font-weight: bold; 
             text-align: center;
         }
 
+        table
+        {
+            margin: auto;
+            margin-bottom: 100px;
+        }
+
+
     </style>
 
     <div class="cv">
+
+        <a href="#"></a>
 
         <div class="entete">
             
             <span>
 
-                <p><b><span style="color:rgb(204, 53, 53);">Carole .
+                <p>
+                    <b>
+                        <span class="nom-carole">Carole .</span>
+
+                        <img class="img" src="../Carole/carole-andria.jpg" alt="PhotoCV"> 
+
+                        <span class="nom-pinky">. PINKY</span> 
+                    </b>
+                </p>
 
             </span>
-
-           <img style="border-radius: 50%;" src="../Carole/carole-andria.jpg" alt="PhotoCV"> 
-
-           <span style="color: rgb(204, 53, 53);">. PINKY</span> </b></p></span>
 
         </div>
 
@@ -74,7 +112,7 @@
 
             <div class="formation">
 
-                <span ><p class="titre">FORMATIONS</p> </span>
+                <span> <p class="titre">FORMATIONS</p> </span>
 
             <table>
 
@@ -86,17 +124,43 @@
                     <tr>
 
                         <td>
-                            <p><b>2023 :</b> Master en cours, dans le domaine Economie à l'<b>Université d'Antananarivo</b></p>
+                            
+                            <p>
+                                
+                                <b>2023 :</b> Master en cours, dans le domaine Economie à l'<b>Université d'Antananarivo</b>
+                           
+                            </p>
+
                             <i>Ankatso - Antananarivo - Madagascar</i>
-                            <p><b>2018 - 2021 :</b> Obtention de diplôme de Licence, dans le domaine Economie à l'<b>Université d'Antananarivo</b></p>
+
+                            <p>
+                            
+                                <b>2018 - 2021 :</b> Obtention de diplôme de Licence, dans le domaine Economie à l'<b>Université d'Antananarivo</b>
+                            
+                            </p>
+                            
                             <i>Ankatso - Antananarivo - Madagascar</i>
+
                         </td>
 
                         <td>
-                            <p><b>2018 :</b> Obtention d'un certificat de langue française, à l'<b>Alliance française d'Antananarivo</b></p>
-                            <i>Andavamamba - Antananarivo - Madagascar</i>
-                            <p><b>2017 :</b> Obtention de diplôme de Baccalauréat, au <b>Lycée Moderne Ampefiloha</b></p>
+
+                            <p>
+                            
+                                <b>2018 :</b> Obtention d'un certificat de langue française, à l'<b>Alliance française d'Antananarivo</b>
+                            
+                            </p>
+                            
+                                <i>Andavamamba - Antananarivo - Madagascar</i>
+
+                            <p>
+                                
+                                <b>2017 :</b> Obtention de diplôme de Baccalauréat, au <b>Lycée Moderne Ampefiloha</b>
+                            
+                            </p>
+                            
                             <i>Ampefiloha - Antananarivo - Madagascar</i>
+                        
                         </td>
 
                     </tr>
@@ -121,13 +185,26 @@
                     <tr>
 
                         <td>
-                            <p><b>Stage 3 mois (Mai 2022 - Novembre 2022) :</b></p>
+                            
+                            <p>
+                            
+                                <b>Stage 3 mois (Mai 2022 - Novembre 2022) :</b>
+                            
+                            </p>
+                            
                             Poste occupé : Caissière
+                        
                         </td>
 
                         <td>
-                            <p><b>Stage 4 mois (Mars 2020 - Juillet 2020) :</b></p>
+                            <p>
+                                
+                                <b>Stage 4 mois (Mars 2020 - Juillet 2020) :</b>
+                            
+                            </p>
+                            
                             <b>Poste occupé :</b> Gerer la comptabilité d'une entreprise
+                        
                         </td>
 
                     </tr>
@@ -140,7 +217,7 @@
 
             <div class="langue">
 
-                <span ><p class="titre">LANGUES</p></span>
+                <span> <p class="titre">LANGUES</p> </span>
 
             <table>
 
@@ -197,7 +274,7 @@
         </div>
 
         <!-- Autres CV -->
-        <p class="autres-cv"> VOIR PLUS :</p>
+        <p class="autres-cv"> Voir plus :</p>
         
  <table>
 
@@ -208,8 +285,9 @@
 
          <tr>
 
-             <th><span><a href="../Léoncia/index.html"><img src="../Léoncia/Léoncia.jpg" alt="PhotoCV"></a></span></th> 
-             <th> <span><a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a></span></th>
+            <th><span><a href="#"><img src="../Carole/carole-andria.jpg" alt="PhotoCV"></a></span></th> 
+            <th><span><a href="../Léoncia/index.html"><img src="../Léoncia/Léoncia.jpg" alt="PhotoCV"></a></span></th> 
+             <th><span><a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a></span></th>
              <th><span><a href="../Steeve/index.html"><img src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV"></a></span></th>
 
          </tr>

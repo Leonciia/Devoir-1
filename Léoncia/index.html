@@ -6,99 +6,121 @@
 </head>
 <body>
     <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+        }
         
-        .container {
-            background-color: rgb(209, 224, 209);
+        .page 
+        {
+            background-color: rgba(209, 224, 209, 0.49);
             display: flex;
         }
     
-        .div1 {
+        .page-droite 
+        {
             background-color: rgb(52, 105, 105);
             width: 400px;
-            height: 1500px;
-          
         }
 
-        span img{
-            width: 280px;
-            height: 280px;
+        .photo 
+        {
+            text-align: center;
+            padding: 20px 0 20px 0;
+        }
+
+        .photo img 
+        {
             border-radius: 50%;
         }
 
-        #img{
-            padding-left: 55px;
-        }
-
-        .span{
+        .span
+        {
             color: rgb(100, 136, 100);
             background-color: white;
             display: flex;
             font-size: 25px;
             font-weight: bolder;
+            padding-left: 20px;
         }
 
-       ul li {
+       ul li 
+       {
             font-size: 20px;
             color: #fff;
             padding: 9px;
         }
 
-        .div2{
-            width: 850px;
-            height: 1400px;
-            padding-left: 40px;
+        .page-gauche
+        {
+            width: 100%;
+            padding: 0 40px 0 40px;
             margin-top: 40px;
         }
 
-        #nom{
+        #nom
+        {
             text-align: end;
             font-size: 30px;
         }
 
-        #span{
+        #span
+        {
             background-color: rgb(52, 105, 105);
             color: rgb(216, 230, 230);
             padding-left: 200px;
         }
 
-        .divpart2{
+        .divpart2
+        {
             border: dashed 2px rgb(100, 136, 100);
             display: flex;
             margin-top: 50px;
             font-size: 25px;
             font-weight: bolder;
             color:rgb(100, 136, 100);
+            padding: 10px;
         }
 
-        p strong{
+        p strong
+        {
             font-size: 20px;
         }
 
-        i{
+        i
+        {
             font-size: 15px;
         }
 
-        .ulli2{
+        .ulli2
+        {
             color: #000;
         }
 
-        table{
-            padding-left: 90px;
+        table
+        {
+            margin: auto;
+            margin-bottom: 100px;
         }
 
-        tr td {
+        tr td 
+        {
             border-bottom: solid 6px rgb(52, 105, 105);
             border-top: solid 6px rgb(52, 105, 105);
             width: 180px;
             height: 180px;
         }
 
-        img{
+        img
+        {
+            object-fit: cover;
             width: 220px;
             height: 220px;
         }
 
-        .autres-cv{
+        .autres-cv
+        {
             font-size: 25px; 
             font-weight: bold; 
             text-align: center;
@@ -106,11 +128,18 @@
 
       </style>
 
-    <div class="container">
+    <div class="page">
 
-        <div class="div1">
+        <a href="#"></a>
 
-          <span id="img"><img src="./Léoncia.jpg" alt="Leoncia"></span>
+        <div class="page-droite">
+
+            <div class="photo">
+
+                <img src="./Léoncia.jpg" alt="Leoncia">
+            
+            </div>
+          
           
           <div id="contact">
 
@@ -174,7 +203,7 @@
 
         </div>
     
-        <div class="div2">
+        <div class="page-gauche">
 
             <span id="nom">
 
@@ -186,41 +215,140 @@
 
             <span class="span" id="span">
 
-                <p>DEVELOPPEUSE WEB (En cours de formation)</p>
+                <p>
+
+                    DEVELOPPEUSE WEB (En cours de formation)
+                
+                </p>
                 
             </span>
 
             <span class="divpart2">EXPERIENCES PROFESSIONNELLES</span>
 
-            <p> <strong>Mai 2021 - Septembre 2021 :</strong> <p style="font-size: 20px;">Stage 4 mois</p> </p>
+            <p> 
+                <strong>
 
-            <i>Antaninarenina - Antananarivo - Madagascar</i>
+                    Mai 2021 - Septembre 2021 :
+
+                </strong> 
+
+                <p style="font-size: 20px;">
+                    
+                    Stage 4 mois
+                
+                </p> 
+            
+            </p>
+
+            <i>
+                
+                Antaninarenina - Antananarivo - Madagascar
+            
+            </i>
 
             <span class="divpart2">FORMATIONS</span>
 
-            <p> <strong>2023 :</strong> <p style="font-size: 20px;">Formation en développement web en cours à <b>Digital Training Center (DTC)</b></p> </p>
-
-            <i>Ambatoroka - Antananarivo - Madagascar</i>
-
-            <p> <strong>2017 - 2021 :</strong> <p style="font-size: 20px;">Obtention de diplôme de Licence dans le parcours Informatique de Gestion à l'<b>Institut Supérieur Polytéchnique de Madagascar (ISPM)</b></p> </p>
-
-            <i>Antsobolo - Antananarivo - Madagascar</i>
-
-            <p> <strong>2017 :</strong> <p style="font-size: 20px;">Obtention de diplôme de Baccalauréat, Série D, à l'<b>Institut d'Enseignement et de Formation ACEEM (IEF ACEEM)</b></p> </p>
+            <p> 
+                
+                <strong>
+                    
+                    2023 :
+                
+                </strong> 
+                
+                <p style="font-size: 20px;">
+                    
+                    Formation en développement web en cours à 
+                    
+                    <b>
+                        
+                        Digital Training Center (DTC)
+                    
+                    </b>
+                
+                </p> 
             
-            <i>Andravoahangy - Antananarivo - Madagascar</i>
+            </p>
 
-            <span class="divpart2">QUALITES PROFESSIONNELLES</span>  
+            <i>
+                
+                Ambatoroka - Antananarivo - Madagascar
+            
+            </i>
+
+            <p> 
+                
+                <strong>
+                    
+                    2017 - 2021 :
+                
+                </strong> 
+                
+                <p style="font-size: 20px;">
+                    
+                    Obtention de diplôme de Licence dans le parcours Informatique de Gestion à l'
+                    
+                    <b>
+                        
+                        Institut Supérieur Polytéchnique de Madagascar (ISPM)
+
+                    </b>
+                
+                </p> 
+            
+            </p>
+
+            <i>
+                
+                Antsobolo - Antananarivo - Madagascar
+            
+            </i>
+
+            <p> 
+                
+                <strong>
+                    
+                    2017 :
+                
+                </strong> 
+                
+                <p style="font-size: 20px;">
+                    
+                    Obtention de diplôme de Baccalauréat, Série D, à l'
+                    
+                    <b>
+                        
+                        Institut d'Enseignement et de Formation ACEEM (IEF ACEEM)
+
+                    </b>
+                
+                </p> 
+            
+            </p>
+            
+            <i>
+                
+                Andravoahangy - Antananarivo - Madagascar
+            
+            </i>
+
+            <span class="divpart2">
+                
+                QUALITES PROFESSIONNELLES
+            
+            </span>  
 
             <ul>
+
                 <li class="ulli2">Créative</li>
                 <li class="ulli2">Dynamique</li>
                 <li class="ulli2">Sérieuse</li>
+           
             </ul>
 
             <!-- Autres CV -->
 
-            <p class="autres-cv"> Cliquez les photos pour voir plus d'autres modèles de CV :</p>
+            <p class="autres-cv"> Voir plus :</p>
             
             <table>
 
@@ -231,10 +359,31 @@
 
                     <tr>
 
-                        <td ><a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a></td>
-                        <td ><a href="../Steeve/index.html"><img src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV"></a></td>
-                        <td ><a href="../Carole/index.html"><img src="../Carole/carole-andria.jpg" alt="PhotoCV"></a></td>
+                        <td>
+
+                            <a href="#"><img src="../Léoncia/Léoncia.jpg" alt="PhotoCV"></a>
+                        
+                        </td>
+                        
+                        <td>
+                            
+                            <a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a>
+                        
+                        </td>
+                        
+                        <td>
+                            
+                            <a href="../Steeve/index.html"><img src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV"></a>
+                        
+                        </td>
+                        
+                        <td>
+                            
+                            <a href="../Carole/index.html"><img src="../Carole/carole-andria.jpg" alt="PhotoCV"></a>
+                        
+                        </td>
                     
+
                     </tr> 
 
                 </tbody>
@@ -243,7 +392,7 @@
 
         </div>
 
-      </div>
+    </div>
 
 </body>
 

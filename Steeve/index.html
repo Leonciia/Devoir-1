@@ -6,63 +6,77 @@
 </head>
 <body>
     <style>
-
-        .page{
+        body 
+        {
+            margin: 0;
+            padding: 0;
             background-color: #cfeedf;
         }
         
-        .entete{
+        .entete
+        {
             display: flex;
             background-color: rgb(90, 185, 119);
             color: #fff;
-            width: auto;
-            height: 150px;
+            height: 280px;
         }
 
-        .contact{
+        .contact
+        {
             background-color: rgb(90, 185, 119);
-            text-align:end ;
-            padding-left: 100px;
             font-size: 20px;
             font-weight:bolder ;
             font-family:'Courier New', Courier, monospace ;
         }
 
-        img{
-            width: 200px;
-            height: 200px;
-            padding-left: 150px;
+        img
+        {
+            object-fit: cover;
+            width: 220px;
+            height: 220px;
         }
 
-        .img{
-            padding-left: 650px;
+        .img
+        {
+           padding: 30px 0 0 30px;
         }
 
-        .corps{
+        .image
+        {
+            border: solid 5px #fff;
+            border-radius: 50%;
+        }
+
+        .corps
+        {
             padding-left: 90px;
             padding-top: 80px;
         }
 
-        .titre{
+        .titre
+        {
             color: rgb(90, 185, 119);
             font-weight: bolder;
             font-size: 30px;
         }
 
-        tr td{
+        tr td
+        {
             border: dashed 2px rgb(69, 155, 170);
             padding: 20px;
         }
 
-        .autres-cv{
+        .autres-cv
+        {
             font-size: 25px; 
             font-weight: bold; 
             text-align: center;
         }
 
-        .dernier{
-            display: flex;
-            justify-content: center;
+        .cv
+        {
+            margin: auto;
+            margin-bottom: 100px;
         }
       
     </style>
@@ -71,44 +85,81 @@
 
     <div class="entete">
 
-        <div class="contact">
+        <a href="#"></a>
 
-            <p>STEEVE HENRY</p>
-            <p>Lot II N Analamahintsy</p>
-            <p>steeve.henry@gmail.com</p>
+        <div class="img">
+
+            <img class="image" src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV">
 
         </div>
 
-        <span>
-            <img class="img" src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV">
-        </span>
+        <div class="contact">
+
+        <p> 
+          |     STEEVE HENRY     |
+            Lot II N Analamahintsy     |
+            steeve.henry@gmail.com     |
+        </p>
+
+        </div>
 
     </div>
 
     <div class="corps">
 
         <span>
+
             <p class="titre">FORMATIONS</p>
+        
         </span>
 
-        <p><strong>2023 :</strong> <p style="font-size: 20px;">Formation en développement web en cours à <b>Digital Training Center (DTC)</b></p> </p>
+        <p>
+            
+            <strong>2023 :</strong> 
+            
+            <p style="font-size: 20px;">
+                
+                Formation en développement web en cours à 
+                
+                <b>Digital Training Center (DTC)</b>
+            
+            </p> 
+        
+        </p>
         
         <i>Ambatoroka - Antananarivo - Madagascar</i>
         
-        <p><strong>2022 :</strong> <p style="font-size: 20px;">Obtention de diplôme de baccalauréat à l'<b>IEF ACEEM</b></p> </p>
+        <p>
+            <strong>2022 :</strong> 
+            
+            <p style="font-size: 20px;">
+                
+                Obtention de diplôme de baccalauréat à l'<b>IEF ACEEM</b>
+            
+            </p> 
+        
+        </p>
         
         <i>Andravoahangy - Antananarivo - Madagascar</i>
 
         <span>
+        
             <p class="titre">EXPERIENCES PROFESSIONNELLES</p>
+        
         </span>
         
-        <p><strong>Stage 2 mois (Juin 2022 - Juillet 2022) :</strong> <p style="font-size: 20px;">Intégration web </p>
+        <p>
+            
+            <strong>Stage 2 mois (Juin 2022 - Juillet 2022) :</strong> <p style="font-size: 20px;">Intégration web 
+            
+        </p>
 
         <i>Antsakaviro - Antananarivo - Madagascar</i>
         
         <span>
+        
             <p class="titre">LANGUES</p>
+        
         </span>
 
         <p>Malgache</p>
@@ -116,9 +167,9 @@
         <p>Espagnol</p>
         
  <!-- Autres CV -->
- <p class="autres-cv"> Cliquez les photos pour voir plus d'autres modèles de CV :</p>
+ <p class="autres-cv"> Voir plus :</p>
  
- <table>
+ <table class="cv">
 
      <thead>
      </thead>
@@ -127,10 +178,31 @@
 
          <tr>
             
-             <td><a href="../Léoncia/index.html"><img src="../Léoncia/Léoncia.jpg" alt="PhotoCV"></a></td>
-             <td><a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a></td>
-             <td><a href="../Carole/index.html"><img src="../Carole/carole-andria.jpg" alt="PhotoCV"></a></td>
+             <td>
+                
+                <a href="#"><img src="../Steeve/matheus-ferrero.jpg" alt="PhotoCV"></a>
+            
+            </td>
+            
+            <td>
+                
+                <a href="../Léoncia/index.html"><img src="../Léoncia/Léoncia.jpg" alt="PhotoCV"></a>
+            
+            </td>
+            
+            <td>
+                
+                <a href="../Mickael/index.html"><img src="../Mickael/michael-dam.jpg" alt="PhotoCV"></a>
+            
+            </td>
+            
+            <td>
+                
+                <a href="../Carole/index.html"><img src="../Carole/carole-andria.jpg" alt="PhotoCV"></a>
+            
+            </td>
 
+            
          </tr>
 
      </tbody>
